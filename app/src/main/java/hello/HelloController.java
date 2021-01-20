@@ -10,4 +10,9 @@ public class HelloController {
     public String index() {
         return "Hello from Spring Boot!";
     }   
+	
+	 @RequestMapping("/hello")
+    public String hello() {
+        return "deployed Hello In Azure!";
+    } 
 }
